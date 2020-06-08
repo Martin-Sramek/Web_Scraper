@@ -172,7 +172,7 @@ def zapis_data_do_csv_souboru(argumenty_prikazove_radky, data_do_csv):
             print(f"Soubor uložen jako '{nazev_souboru}'.")
             break
         except:
-            print("Zadali jste neplatný název souboru.")
+            print("Zadali jste neplatný název souboru!")
             nazev_souboru = input("Zadejte platný název souboru: ")
  
 
